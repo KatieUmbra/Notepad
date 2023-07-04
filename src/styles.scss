@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: #4a4a4a;
+}
+
+.app-body {
+  width: 800px;
+  height: 600px;
+  .main {
+    background-color: #4a4a4a;
+    resize: none;
+    border-radius: 0;
+    border-width: 0;
+    border-color: transparent;
+    height: calc(100% - 75px);
+    width: 780px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    &:focus {
+      border-radius: 0;
+      border-width: 0;
+      border-color: transparent;
+      outline: none;
+    }
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
